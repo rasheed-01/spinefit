@@ -10,28 +10,26 @@ html, body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
-    background-color: #f0f0f0;
 }
 
 /* Style the container for the boxes */
 .container2 {
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
     gap: 20px;
+	padding-top: 10px;
 }
 
 /* Style the individual boxes with images */
 .box-pics {
-    width: calc(33.33% - 20px); /* Adjust the width to create three columns with a gap of 20px */
+    width: 250px; /* Adjust the width to create three columns with a gap of 20px */
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     background-color: #007BFF; /* Fallback background color */
-    position: relative;
+    position:relative;
     height: 0;
-    padding-bottom: 60%; /* Create rectangular boxes with a 3:2 aspect ratio */
+    padding-bottom: 40%; /* Create rectangular boxes with a 3:2 aspect ratio */
     overflow: hidden;
 }
 
@@ -47,6 +45,7 @@ html, body {
     align-items: center;
     color: white;
     text-align: center;
+	border-radius: 20px;
     background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
 }
 
@@ -73,8 +72,9 @@ html, body {
     text-align: center;
     color: black;
     box-sizing: border-box;
-    padding:20px;
+	padding-top: 40px;
     margin:0;
+	font-size: 24px;
 
     .p{
         margin: 0 0 -2em 0;
@@ -1867,7 +1867,7 @@ input, select, textarea {
 	}
 
 	header.major {
-		margin: 5em 0 3.5em 0;
+		margin: 5em 0 1em 0;
 	}
 
 		header.major h2, header.major h3, header.major h4, header.major h5, header.major h6 {
@@ -2517,14 +2517,14 @@ input, select, textarea {
 		letter-spacing: 0.225em;
 		line-height: 3.125em;
 		max-width: 30em;
-		padding: 0 2.75em;
+		padding: 0.5em;
 		text-align: center;
 		text-decoration: none;
 		text-transform: uppercase;
 		white-space: nowrap;
 		overflow: hidden;
 		text-overflow: ellipsis;
-        padding-top: 0.5em;
+     
 	}
 
 		input[type="submit"]:hover,
